@@ -9,3 +9,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: normal;
 }
+
+body {
+  background: linear-gradient(to right, #0088ff, #00ff6c);
+}
