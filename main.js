@@ -2,7 +2,23 @@ class Calculator {
   constructor(previousOperandText, currOperandText) {
     this.previousOperandText = previousOperandText;
     this.currOperandText = currOperandText;
+    this.clear();
   }
+
+  clear() {
+    this.currOperandText = this.previousOperandText = "";
+    this.operation = undefined;
+  }
+
+  delete() {}
+
+  appendNumber(number) {}
+
+  chooseOperation(operation) {}
+
+  compute() {}
+
+  updateDisplay() {}
 }
 
 const numberButtons = document.querySelectorAll("[data-number]");
